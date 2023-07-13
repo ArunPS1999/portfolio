@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<style>
+  .ima{
+    background-color: rgb(3, 3, 2);
+  }
+
+ .ima img{
+  margin-left: 70%;
+  height: 400px;
+  position: absolute;
+  opacity: 30%;
+  width: 30%;
+  height: 500px;
+  scroll-behavior: initial;  
+
+ }
+
+
+ .name{
+   font-style:italic;
+   margin: 2% 20%;
+   position: relative;
+   text-align: center;
+   width: 30%;
+ }
+ .self{
+   position: relative;
+   margin: 20% 10%;
+   color: aqua;
+   background-color: rgb(20, 4, 110);
+   border: 1px solid rgb(5, 5, 6);
+   box-shadow:5px 10px 10px #0d0000;
+   width: 55%;  
+   padding: 2% ;
+   justify-content: center;
+ }
+
+ h2{
+    text-decoration: underline;
+ }
+
+ .about{
+   position: relative;
+   text-align: center;
+   margin-top: 17%;
+ }
+
+table, th, td{
+   position: relative;
+   border:1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+  <div class="ima" >
+  <img src="/static/arun ps.jpg" alt="">
+ </div>
+ <div class="name">
+   <span style="font-size: 180%;">ARUN P S</span><br>
+    <span style="width: 80%;">PYTHON FULL STACK DEVELOPER</span>
+ </div>
+
+ <div class="self">
+      I am Arun P S, I am a fullstack developer based in Ernakulam. I have developed many types of web-applications based on Python-DJango.
+       Waiting for better carrier opportunity with a reputed technology firm where I can utilize & improve my development knowledge and soft skills. 
+ </div>
+
+
+ <div class="about">
+
+  <h2 id="abt";> About </h2>
+    <br>
+
+    I am passionate about web developein with experience in Python,Django,Bootstrap,HTML,CSS,Java Script,GIT & GITHUB. I have developed many types of web-applications based on Python-DJango.
+    A Python Developer is an expert in server-side web application logic. They are responsible for using Python language to develop, debug, and implement application projects. They also connect the program to other external web services and assist front-end developers by integrating their work into the Python application.
+     
+ </div>
+
+ <div class="about"style="width: 80%;">
+
+    <h2 id="educ"> Education & Experience</h2>
+    <br>
+    SSLC from St.Marys HS Bharananganam
+    <br><br>
+    +2 from Govt. HSS Adukkom (commerce)
+    <br><br>
+    DIPLOMA from Engineering College of Poonjar ( Computer Hardware Engineering)
+     
+ </div>
+
+ <br><br>
+ 
+<table style="width:50%;margin-left: 20%;" >
+   <tr>
+     <th>Company</th>
+     <th>Designaiton</th>
+     <th>Period</th>
+   </tr>
+   <tr>
+     <td>Zion IT Company</td>
+     <td>pyhton-django developer</td>
+     <td>20/07/2022 to 20/01/2023</td>
+   </tr>
+   <tr>
+      <td>CB Tech</td>
+      <td>pyhton-django developer</td>
+      <td>05/05/2023 to 08/06/2023</td>
+    </tr>
+</table>
+
+{% endblock %}
